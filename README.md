@@ -1,8 +1,10 @@
-# Dev Portfolio
+# Modern Portfolio
+---------------------
 cloned from [devportfolio](https://github.com/bradtraversy/modern_portfolio).
 Thanks to [Brad Traversy](https://github.com/bradtraversy).
 
 # Setup Portfolio
+-------------------
 1) fork original repository. [click here](https://github.com/bradtraversy/modern_portfolio).
 2) rename repository
 3) go to settings enable github pages ( set source to master branch )
