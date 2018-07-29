@@ -1,6 +1,6 @@
 # Modern Portfolio
 
-cloned from [devportfolio](https://github.com/bradtraversy/modern_portfolio).
+cloned from [modern_portfolio](https://github.com/bradtraversy/modern_portfolio).
 Thanks to [Brad Traversy](https://github.com/bradtraversy).
 
 # Setup Portfolio
