@@ -9,7 +9,7 @@
     crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/main.css">
-  <title>Contact Me</title>
+  <title>About Me</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             Home
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item current">
           <a href="about.html" class="nav-link">
             About Me
           </a>
@@ -40,7 +40,7 @@
             My Work
           </a>
         </li>
-        <li class="nav-item current">
+        <li class="nav-item">
           <a href="contact.html" class="nav-link">
             How To Reach Me
           </a>
@@ -49,24 +49,41 @@
     </nav>
   </header>
 
-  <main id="contact">
+  <main id="about">
     <h1 class="lg-heading">
-      Contact
+      About
       <span class="text-secondary">Me</span>
     </h1>
     <h2 class="sm-heading">
-      This is how you can reach me...
+      Let me tell you a few things...
     </h2>
-    <div class="boxes">
-      <div>
-        <span class="text-secondary">Email: </span> johndoe@test.com
+    <div class="about-info">
+      <img src="img/portrait.jpg" alt="John Doe" class="bio-image">
+
+      <div class="bio">
+        <h3 class="text-secondary">BIO</h3>
+        <p>
+My name is Benabadji Mohammed Salim, I am a passionate C++ Software Developer with focus on Network programming, data processing for both desktop and embedded systems and mobile phones. typically anything that have network interface. ( ESP, AVR, MCP, SBC, android, windows, linux...).</p>
       </div>
-      <div>
-        <span class="text-secondary">Phone: </span> (555) 555-5555
+
+      <div class="job job-1">
+        <h3>Software Developer</h3>
+        <h6>Qt C++ & QML</h6>
+        <p>Creation of management software,
+         <br>Network programming (TCP/UDP/WebSocket).</p>
       </div>
-      <div>
-        <span class="text-secondary">Address: </span> 50 Main st Boston MA 02101
+
+      <div class="job job-2">
+        <h3>Embedded System</h3>
+        <h6>C & C++</h6>
+        <p>Building some gadget using popular microcontroller like ESP8266, ESP32, ATmega328, ATtiny85
+          and some SBC like Raspberry Pi, Banana Pi, Orange Pi.
+          <br>1) Real time embedded systems.
+          <br>2) Networked embedded systems.
+          <br>3) Mobile embedded systems. </p>
       </div>
+
+
     </div>
   </main>
 
